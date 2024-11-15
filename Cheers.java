@@ -23,6 +23,6 @@ public class Cheers {
                 for (int i = 0; i < repeatsNum; i++) {
                         System.out.println(cheeringWord + "!!!");
                 }
-                System.out.println();
+                System.out.println("");
         }
 }
