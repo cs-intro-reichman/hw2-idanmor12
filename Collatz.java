@@ -16,7 +16,7 @@ public class Collatz {
 					startingNum = startingNum * 3 + 1;
 				}
 				if (isVerbose){
-					System.out.print(", " + startingNum);
+					System.out.print(" " + startingNum);
 				}
 				counter++;
 			} while (startingNum != 1);
