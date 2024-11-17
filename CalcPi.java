@@ -15,6 +15,6 @@ public class CalcPi {
 		}
 
 		System.out.println("pi accoriding to Java: " + Math.PI);
-		System.out.println("pi, approximated: " + approximation * 4.0);
+		System.out.println("pi, approximated:     " + approximation * 4.0);
 	}
 }

@@ -12,7 +12,7 @@ public class Cheers {
                         System.out.println(currLetter + "!");
                 }
 
-                System.out.println("What does that Spell?");
+                System.out.println("What does that spell?");
                 for (int i = 0; i < repeatsNum; i++) {
                         System.out.println(cheeringWord + "!!!");
                 }
