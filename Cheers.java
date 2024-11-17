@@ -7,15 +7,8 @@ public class Cheers {
 
                 for (int i = 0; i < cheeringWord.length(); i++) {
                         char currLetter = cheeringWord.charAt(i);
-                        String indefiniteArticle= "a ";
-                                for (int j = 0; j < VowelSoundLetters.length(); j++) {
-                                        if (VowelSoundLetters.indexOf(currLetter) != -1)
-                                        {
-                                                indefiniteArticle = "an";
-                                                break;
-                                        }
-                                }
-                        System.out.print("Give me " + indefiniteArticle + " " + currLetter + ": ");
+                        String indefiniteArticle= VowelSoundLetters.indexOf(currLetter) != -1 ? "an " :  "a  ";   
+                        System.out.print("Give me " + indefiniteArticle+ currLetter + ": ");
                         System.out.println(currLetter + "!");
                 }
 
