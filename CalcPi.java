@@ -14,7 +14,7 @@ public class CalcPi {
 			isActionAddition = !isActionAddition;
 		}
 
-		System.out.println("pi accoriding to Java: " + Math.PI);
+		System.out.println("pi according to Java: " + Math.PI);
 		System.out.println("pi, approximated:     " + approximation * 4.0);
 	}
 }
